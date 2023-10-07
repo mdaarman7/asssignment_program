@@ -1,4 +1,4 @@
-//1. (inline Function) Factorial of a number.
+//1. Factorial of a number.
 #include<iostream>
 using namespace std;
 inline int fact(int m)

@@ -3,7 +3,6 @@
 using namespace std;
 class Circle{
 	int radius;
-	
 	public:
 		void getdata()
 		{
