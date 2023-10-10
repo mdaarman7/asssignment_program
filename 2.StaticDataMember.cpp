@@ -4,20 +4,33 @@ using namespace std;
 class Test
 {
     static int num;
+    int num1;
 public:
-    Test()
+ /*   Test()
     {
         num += 1;
+    }*/
+    void getdata()
+    {
+        cout<<"Enter num1: ";
+        cin>>num1>>num;
     }
     static void display()
     {
         cout << "Number of object created: " << num;
+    }
+    void result()
+    {
+        cout<<"Sum is : "<<num+num1;
     }
 };
 int Test::num = 0;
 int main()
 {
     Test obj1[5];
-    obj1[0].display();
+    //obj1[0].display();
+    obj1[0].getdata();
+    obj1[0].result();
+
     return 0;
 }

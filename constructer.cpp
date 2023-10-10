@@ -14,6 +14,9 @@ public:
         fahrenhite=(celsius*1.8)+32;
         return fahrenhite;
     }
+    ~First(){
+        cout<<endl<<"Destructor called";
+    }
     
 };
 int main()
