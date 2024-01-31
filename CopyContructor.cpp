@@ -1,26 +1,26 @@
-// CopyConstructor
+// "Copy Constructor Program"
 #include<iostream>
 using namespace std;
 class Test{
-    int a;
-    int b;
+    private:
+        int a;
     public:
-        Test(int c)
+        Test(int d)
+        {   
+            a=d;
+        }
+        Test (Test &object)
         {
-            a=c;
+            a=object.a;
         }
         void display()
         {
-            cout<<"the value of a is: "<<a;
-        }
-        Test(Test &obj)
-        {
-            a=obj.a;
+            cout<<endl<<"The value of a is : "<<a;
+
         }
 }obj(10);
 int main()
 {
-    //obj.display();
     Test obj1=obj;
     obj1.display();
     return 0;

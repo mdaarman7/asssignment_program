@@ -1,4 +1,4 @@
-// Conversion Of Celsius to Fahrenhite.
+// Conversion of Celsius to Fahrenhite Using Constructor and Destructor.
 #include<iostream>
 using namespace std;
 class First{

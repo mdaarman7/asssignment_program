@@ -1,4 +1,4 @@
-// Overloading Operator with return type.
+// Overloading Operator with Return Type.
 #include<iostream>
 using namespace std;
 class Complex_Number{

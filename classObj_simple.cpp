@@ -1,4 +1,4 @@
-// Practice
+// "Asking User id and name of book and displaying it using Class and Object"
 #include <iostream>
 using namespace std;
 class Library
@@ -13,7 +13,8 @@ public:
         cout << endl
              << "Enter id and name of the book: ";
         fflush(stdin);
-        cin >> id >> name;
+        cin >> id;
+        cin.getline(name,20);
     }
     void display()
     {

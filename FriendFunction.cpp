@@ -1,3 +1,4 @@
+// "Friend Function In Two Different Classes"
 #include<iostream>
 using namespace std;
 class Second;

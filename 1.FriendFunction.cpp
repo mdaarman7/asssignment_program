@@ -1,4 +1,4 @@
-//1. Implementation of friend function that calculates and returns the area of circle with private data members for radius
+//1. "Implementation of friend function that calculates and returns the area of circle with private data members for radius"
 #include<iostream>
 using namespace std;
 class Circle{

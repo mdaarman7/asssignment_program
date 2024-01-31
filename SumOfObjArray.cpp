@@ -1,4 +1,4 @@
-//passing object's array[3] and adding their private data member;
+// Passing object's array[3] and adding their private data member;
 #include<iostream>
 using namespace std;
 class First{

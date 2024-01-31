@@ -1,5 +1,5 @@
 // 1. Static Data Member
-// Program to add or remove books from the inventory.
+// "Program to add or remove books from the inventory."
 #include <iostream>
 using namespace std;
 class Book
